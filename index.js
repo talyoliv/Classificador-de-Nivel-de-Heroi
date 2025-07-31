@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')();
 
 let nomeHeroi = prompt("Olá Herói, digite seu nome: " );
-let quantidadeEsperienciaXP = parseInt(prompt(`${nomeHeroi}, didite sua quantidade de experiência XP: `));
+let quantidadeEsperienciaXP = parseInt(prompt(`${nomeHeroi}, digite sua quantidade de experiência XP: `));
 let nivel;
 
 if (quantidadeEsperienciaXP <= 1000) {
