@@ -6,17 +6,17 @@ let nivel;
 
 if (quantidadeEsperienciaXP <= 1000) {
     nivel = "Ferro";
-} else if (quantidadeEsperienciaXP > 1001 && quantidadeEsperienciaXP <= 2000) {
+} else if (quantidadeEsperienciaXP >= 1001 && quantidadeEsperienciaXP <= 2000) {
     nivel = "Bronze";
-} else if (quantidadeEsperienciaXP > 2001 && quantidadeEsperienciaXP <= 5000) {
+} else if (quantidadeEsperienciaXP >= 2001 && quantidadeEsperienciaXP <= 5000) {
     nivel = "Prata";
-} else if (quantidadeEsperienciaXP > 5001 && quantidadeEsperienciaXP <= 7000) {
+} else if (quantidadeEsperienciaXP >= 5001 && quantidadeEsperienciaXP <= 7000) {
     nivel = "Ouro";
-} else if (quantidadeEsperienciaXP > 7001 && quantidadeEsperienciaXP <= 8000) {
+} else if (quantidadeEsperienciaXP >= 7001 && quantidadeEsperienciaXP <= 8000) {
     nivel = "Platina";
-} else if (quantidadeEsperienciaXP > 8001 && quantidadeEsperienciaXP <= 9000) {
+} else if (quantidadeEsperienciaXP >= 8001 && quantidadeEsperienciaXP <= 9000) {
     nivel = "Ascendente";
-} else if (quantidadeEsperienciaXP > 9001 && quantidadeEsperienciaXP <= 10000) {
+} else if (quantidadeEsperienciaXP >= 9001 && quantidadeEsperienciaXP <= 10000) {
     nivel = "Imortal";
 } else {
     nivel = "Radiante";
